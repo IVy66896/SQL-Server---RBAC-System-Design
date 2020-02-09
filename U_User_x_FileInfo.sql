@@ -1,0 +1,5 @@
+CREATE TABLE [dbo].[U_User_x_FileInfo] (
+	[ID] int NOT NULL IDENTITY(1,1) PRIMARY KEY CLUSTERED, 
+	[UserID] int NOT NULL DEFAULT ((0)), 
+	[FileInfoID] int NOT NULL DEFAULT ((0))
+) ON [PRIMARY]
