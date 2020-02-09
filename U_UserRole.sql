@@ -1,0 +1,5 @@
+CREATE TABLE [dbo].[U_UserRole] (
+	[ID] int NOT NULL IDENTITY(1,1) PRIMARY KEY CLUSTERED, 
+	[UserID] int NOT NULL, 
+	[RoleID] int NOT NULL
+) ON [PRIMARY]
